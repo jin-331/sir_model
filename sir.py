@@ -40,7 +40,7 @@ while t<365:
     t = t + dt
     cnt = cnt + 1
 
-plt.title("SIR モデル")
+plt.title("SIR Model")
 plt.plot(taxis,xaxis, color=(0.0,1,0.0), linewidth=1.0, label='S')
 plt.plot(taxis,yaxis, color=(1.0,0,0.0), linewidth=1.0, label='I')
 plt.plot(taxis,zaxis, color=(0.0,0,1.0), linewidth=1.0, label='R')
